@@ -43,7 +43,10 @@
   "engines": {
     "node": ">=18.18.0"
   },
-  "dependencies": {
+    "dependencies": {
+    "next": "14.2.3",   // or any version like "13.x.x", etc.
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "@ai-sdk/amazon-bedrock": "1.0.6",
     "@ai-sdk/anthropic": "0.0.39",
     "@ai-sdk/cohere": "1.0.3",
